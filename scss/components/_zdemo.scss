@@ -1,0 +1,112 @@
+/*Styles used to showcase the demo product on ThemeForest and create backgrounds. These can be deleted to increase speed of loading*/
+.bg-0 {
+    background-image: url(../images/pictures/narasumber-1.png);
+
+}
+
+.bg-1 {
+    background-image: url(../images/pictures/narasumber-2.png);
+}
+
+.bg-2 {
+    background-image: url(../images/pictures/narasumber-3.png);
+}
+
+.bg-3 {
+    background-image: url(../images/pictures/narasumber-4.png);
+}
+
+
+/*Demo Colors*/
+.demo-color {
+    font-family: $headings-font-family;
+    display: block;
+    width: 100%;
+    line-height: 45px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.05);
+}
+
+.demo-color strong {
+    display: block;
+    font-size: 9px;
+    margin-top: -25px;
+    padding-bottom: 3px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.demo-color span {
+    font-size: 10px;
+    position: absolute;
+    right: 20px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/*Highlight Changer*/
+.theme-change-transition {
+    transition: all 150ms ease !important;
+}
+
+
+/*Highlight Changer*/
+.theme-change-transition {
+    transition: all 150ms ease !important;
+}
+
+.highlight-changer a {
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 42px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.highlight-changer a i {
+    margin-top: 10px;
+    display: block;
+    font-size: 26px !important;
+}
+
+.highlight-changer a span {
+    font-size: 11px;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.background-changer a {
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 42px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.background-changer a i {
+    margin-top: 10px;
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0);
+    margin: 10px auto 0px auto;
+}
+
+.background-changer .bg-theme {
+    border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.background-changer a span {
+    font-size: 11px;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
