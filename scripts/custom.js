@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
             var greetingExist = document.querySelectorAll('.greeting-text')[0]
             if(greetingExist){
             var greetingUser = document.querySelectorAll('.greeting-text')[0].getAttribute('data-username');
-                var greetingMorning = ('MUSRENBANG');
-                var greetingAfternoon = ('MUSRENBANG');
-                var greetingEvening = ('MUSRENBANG');
+                var greetingMorning = ('MUSRENBANG RKPD');
+                var greetingAfternoon = ('MUSRENBANG RKPD');
+                var greetingEvening = ('MUSRENBANG RKPD');
 
                 if (greetingTime >= 0 && greetingTime < 12) {greetingMessage = greetingMorning;
                 } else if (greetingTime >= 12 && greetingTime < 17) {greetingMessage = greetingAfternoon;

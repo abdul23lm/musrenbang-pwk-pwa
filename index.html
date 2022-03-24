@@ -5,7 +5,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
-<title>Undangan MUSRENBGANG RKPD Kabupaten Purwakarta 2023</title>
+<title>Undangan MUSRENBANG RKPD Kabupaten Purwakarta 2023</title>
 <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="styles/style.css">
@@ -44,13 +44,12 @@
                                 <h6 class="color-black mb-2">Kabupaten Purwakarta Tahun 2023</h6>
                                 <p class="color-black">Senin, 28 Maret 2022 | Pukul 07.30 - Selesai <br>
                                 <i class="fas fa-map-pin mx-2"></i>Bale Sawala Yudistira Pemkab Purwakarta</p>
-                                <p class="boxed-text-l color-black opacity-80 mb-5">
-                                    Kepada Yth:
-                                    <br>
-                                    <br>
-                                    <b> Peserta MUSRENBANG
-                                      <br> Kabupaten Purwakarta 2023 </b>
+                                <p class="boxed-text-l color-black opacity-80">
+                                    Kepada Yth. <br>
+                                    <b>Peserta Musrenbang RKPD</b>
                                 </p>
+                                <!-- <h2><input class="text-center" type="text" id="receiverValue" value="" disabled /></h2> -->
+                                <p class="boxed-text-l color-black opacity-80 mb-5 fw-bold" id="receiverValue"></p>
                                 <a href="home.html" class="btn btn-m bg-highlight rounded-xl btn-center-m shadow-l font-900 text-uppercase">Buka Undangan</a>
                             </div>
                             <div class="card-overlay bg-blackd"></div>
@@ -71,13 +70,6 @@
          data-menu-effect="menu-over">
     </div>    
     
-    <div id="menu-highlights" 
-         class="menu menu-box-bottom menu-box-detached rounded-m" 
-         data-menu-load="menu-colors.html"
-         data-menu-height="510" 
-         data-menu-effect="menu-over">        
-    </div>
-    
     <div id="menu-main"
          class="menu menu-box-right menu-box-detached rounded-m"
          data-menu-width="260"
@@ -93,4 +85,12 @@
 
 <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
+
+<script>
+    
+        let urlParams = (new URL(document.location)).searchParams;
+        let receiver = urlParams.get("to");
+        // console.log(receiver);
+        document.getElementById('receiverValue').innerHTML = receiver;
+</script>
 </body>
